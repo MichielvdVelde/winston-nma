@@ -1,0 +1,9 @@
+{
+	"name": "winston-nma",
+	"version": "0.0.1",
+	"author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+	"dependencies": {
+		"winston": "*"
+		"notify-my-android": "*"
+	}
+}
