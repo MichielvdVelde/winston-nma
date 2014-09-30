@@ -27,10 +27,13 @@ You can use winston-nma like any other transport.
 This is an incomplete list.
 
 * Publish on mpm
-* Build in support for winston's metadata
 * Build in support for NMA's `remaining` rate-limiting setting
 
 ## Changelog
+
+### v0.0.2 - 30 September 2014
+
+* Built-in support for winston's metadata
 
 ### v0.0.1 - 28 September 2014
 

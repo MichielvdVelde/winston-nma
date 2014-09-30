@@ -1,9 +1,15 @@
 {
 	"name": "winston-nma",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"description": "A NotifyMyAndroid.com transport for Winston",
 	"author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MichielVdVelde/winston-nma"
+	}
 	"dependencies": {
 		"winston": "*"
 		"notify-my-android": "*"
-	}
+	},
+	"license": "MIT"
 }
