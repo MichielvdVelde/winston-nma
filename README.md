@@ -4,7 +4,9 @@
 
 ## How to use
 
-Right now, winston-nma is not yet available on npm, so you need another way to get the files in your app. A simple way is to download the files and drop them in your app's `node_modules` directory.
+You can easily use npm:
+
+```npm install winston-nme```
 
 ## Use the transport
 
@@ -19,7 +21,7 @@ You can use winston-nma like any other transport.
 ```
 
 * `level`: the level you want to log (e.g. 'error', 'warn'). Defaults to `error`.
-* `metadata`: Boolean indicating whether or not to send the metadata. Uses `util.inspect` (default FALSE).
+* `metadata`: Whether or not to send the metadata. Uses `util.inspect` (default: `false`).
 * `appName`: The name of your app. This name shows up in the notifications.
 * `apiKey`: Your Notify My Android API key, which you can get on your control panel.
 
@@ -27,13 +29,13 @@ You can use winston-nma like any other transport.
 
 This is an incomplete list.
 
-* Publish on mpm
 * Build in support for NMA's `remaining` rate-limiting setting
 
 ## Changelog
 
-### v0.0.2 - 30 September 2014
+### v0.0.2 / v0.0.3 - 30 September 2014
 
+* Published on npm
 * Built-in support for winston's metadata
 
 ### v0.0.1 - 28 September 2014
