@@ -13,12 +13,13 @@ You can use winston-nma like any other transport.
 ```javascript
   var logger = new (winston.Logger)({
     transports: [
-      new (winston.transports.NotifyMyAndroid)({ 'level': 'error', appName: 'My app', apiKey: 'your-api-key-here' })
+      new (winston.transports.NotifyMyAndroid)({ 'level': 'error', 'metadata': true, appName: 'My app', apiKey: 'your-api-key-here' })
     ]
   });
 ```
 
 * `level`: the level you want to log (e.g. 'error', 'warn'). Defaults to `error`.
+* `metadata`: Boolean indicating whether or not to send the metadata. Uses `util.inspect` (default FALSE).
 * `appName`: The name of your app. This name shows up in the notifications.
 * `apiKey`: Your Notify My Android API key, which you can get on your control panel.
 
