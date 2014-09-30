@@ -2,11 +2,11 @@
 
 **winston-nma** is a log transport for [Winston](https://github.com/flatiron/winston), **independently** developed. It allows you to send messages to your Android phone by using the [Notify My Android](http://www.notifymyandroid.com/) service. As of this moment, it's a simple transport without a whole lot of functionality, but it'll do the trick.
 
-## How to use
+## How to install
 
 You can easily use npm:
 
-```npm install winston-nme```
+```npm install winston-nma```
 
 ## Use the transport
 
